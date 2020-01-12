@@ -1,0 +1,79 @@
+body {
+	background-color: #F6F6F6;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+
+}
+
+.all-page {
+	width: 1615px;
+	height: 805px;
+	border: 1px solid lightgray;
+	background-color: #FFFFFF;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+
+}
+
+.image {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 50%;
+}
+
+.text	{
+	height: 100%;
+	width: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+}
+
+span {
+	display: block;
+	color: #2F2F2F;
+	font-family: ArialMT, AdobeInvisFont, MyriadPro-Regular, sans-serif;
+	font-size: 24px;
+	margin-bottom: 30px;
+}
+
+.price {
+	color: #2F2F2F;
+	font-family: ArialMT, AdobeInvisFont, MyriadPro-Regular, sans-serif;
+	font-size: 48px;	
+	margin-bottom: 70px;
+}
+
+.text-box h1 {
+	color: #2F2F2F;
+	font-family: Arial-BoldMT, AdobeInvisFont, MyriadPro-Regular, sans-serif;
+	font-size: 36px;	
+	margin-bottom: 35px;	
+}
+
+.text-box p {
+	width: 630px;
+	color: #2F2F2F;	
+	font-family: ArialMT, AdobeInvisFont, MyriadPro-Regular, sans-serif;
+	font-size: 24px;
+	margin-bottom: 65px;
+}
+
+.text-box a {
+	background-color: #EC744A;
+	color: #FFFFFF;
+	font-family: ArialMT, AdobeInvisFont, MyriadPro-Regular, sans-serif;
+	font-size: 30px;
+	padding: 20px 50px;
+	text-decoration: none;
+	transition: 0.4s;
+}
+
+.text-box a:hover {
+	background-color: #ECA991;
+	overflow: hidden;
+}
